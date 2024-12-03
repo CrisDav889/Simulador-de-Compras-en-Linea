@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examen Bimestral 4to Baco</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+<body>
+    <script src="JS/logic.js"></script>
+    <h1 class="intro">Simulador de Compras</h1>
+    <br>
+    <br>
+    <br>
+    <section>
+        <p>Puedes escoger entre los siguientes tres productos:</p>
+        <article>
+            <div class="pro1">
+                <center> <img src="img/ps5.png"> </center>
+                <h3>Playstation 5</h3>
+                <p class="coment">PS5 slim 10tflp de potencia grafica </p>
+                <p class="coment"> <b>Precio: </b> Q350.00</p>
+                <label> Cantidad <input type="number" placeholder="0" class="quantity" id="quan1"></label>
+
+
+            </div>
+            <div class="pro2">
+                <center><img src="img/Teclado.png"></center>
+                <h3>Teclado 8BitO</h3>
+                <p class="coment">Teclado mecanico con Switches Blue 8BitO</p>
+                <p class="coment"> <b>Precio: </b>Q550.00 </p>
+                <label> Cantidad <input type="number" placeholder="0" class="quantity" id="quan2"></label>
+
+            </div>
+            <div class="pro3">
+                <center><img src="img/transformador.png"></center>
+                <h3>Transformador de voltaje</h3>
+                <p class="coment"> Transformador convertidor de voltaje, 5000 W, transformador elevador/descendente
+                    resistente.</p>
+                <p class="coment"> <b>Precio: </b>Q450.00 </p>
+                <label> Cantidad <input type="number" placeholder="0" class="quantity" id="quan3"></label>
+            </div>
+        </article>
+        <aside style="border-radius: 15px;">
+            <p class="coment">Entregamos en las siguintes ciudades</p>
+            <h4>Destinos</h4>
+
+
+            <select id="destinity">
+                <option value="1">Ciudad</option>
+                <option value="2">Sololá</option>
+                <option value="3">Quetzaltenango</option>
+                <option value="4">Jalapa</option>
+                <option value="5">San Marcos o Izabal</option>
+            </select>
+            <br><br>
+
+            <h4>Metodo de envio</h4>
+            <label><input type="radio" class="op1">FORZA</label>
+            <label><input type="radio" class="opt2">Correo</label>
+            <label><input type="radio" class="opt4">Cargo Express</label>
+
+            <select id="client">
+                <option>Ninguno</option>
+                <option>Oro</option>
+                <option>Platino</option>
+                <option>Diamante</option>
+
+            </select>
+
+            <br><br>
+            <button onclick="check()" class="check">Facturar</button>
+            <button onclick="other()" class="other">Nuevo</button>
+            <p id="r"></p>
+
+    </section>
+    </aside>
+</body>
+
+</html>

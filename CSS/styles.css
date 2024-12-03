@@ -1,0 +1,104 @@
+body{
+    background-color: grey;
+}
+
+.logo{
+    border-radius:15px ;
+    width: 140px;
+    height: 120px;
+    float: left;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+
+
+.intro{
+    text-align: center;
+}
+
+section{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.product1, div.product2{
+    margin-right: 2%;
+
+}
+div.pro1, div.pro2, div.pro3{
+    display: inline-grid;
+    width: 31%;
+    height: auto;
+    padding-bottom: 1%;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+h3{
+    width: 100%;
+    height: auto;
+    background-color: #1C1C1C;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+
+}
+
+.comment, label{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+.quantity{
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+}
+aside{
+    margin-top: 2%;
+    width: 92%;
+    height: auto;
+    padding: 3%;
+    background: rgba(255,255,255, 0.5);
+    border-radius: 3px;
+
+}
+
+select{
+    width: 25%;
+    height: 30px;
+    font-family: Verdana;
+    font-size: 16px;
+
+    
+}
+
+#parrafo{
+    font-size: 14px;
+    background: #2C0B00;
+    color: #FFFFFF;
+
+}
+
+h4{
+    font-size: 20px;
+
+}
+button{
+    width: 15%;
+    height: 45px;
+     background-color: #1C1C1C;
+     font-family: Verdana;
+     font-size: 20px;
+     color: #FFFFFF;
+     border: 2px solid #1C1C1C;
+     border-radius: 15px;
+     
+}
